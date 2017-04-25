@@ -1,6 +1,6 @@
 # npmtest-redis-scripto
 
-#### test coverage for  [redis-scripto (v0.1.3)](https://github.com/arunoda/node-redis-scripto)  [![npm package](https://img.shields.io/npm/v/npmtest-redis-scripto.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redis-scripto) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redis-scripto.svg)](https://travis-ci.org/npmtest/node-npmtest-redis-scripto)
+#### basic test coverage for  [redis-scripto (v0.1.3)](https://github.com/arunoda/node-redis-scripto)  [![npm package](https://img.shields.io/npm/v/npmtest-redis-scripto.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redis-scripto) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redis-scripto.svg)](https://travis-ci.org/npmtest/node-npmtest-redis-scripto)
 
 #### Redis Lua Script Manager for NodeJS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redis-scripto/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redis-scripto/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redis-scripto/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redis-scripto/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redis-scripto/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redis-scripto/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redis-scripto/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redis-scripto/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redis-scripto/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redis-scripto/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redis-scripto/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redis-scripto/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
     "scripts": {
         "test": "test/index.js"
     },
-    "version": "0.1.3"
+    "version": "0.1.3",
+    "bin": {}
 }
 ```
 
